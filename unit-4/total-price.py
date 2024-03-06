@@ -9,5 +9,5 @@ def calculate_total_cost(price, quantity):
     return total_cost # Return the total cost
 
 print(calculate_total_cost(10, 2))  # Expected output: 19.6 (with tax and discount applied)
-print(calculate_total_cost(15, 3))  # Expected output: Approximately 38.7
-print(calculate_total_cost(20, 1))  # Expected output: Approximately 19.6
+print(calculate_total_cost(15, 3))  # Expected output: 44.1
+print(calculate_total_cost(20, 1))  # Expected output: 19.6
