@@ -1,11 +1,6 @@
-# Creating a list
-original_list = ['ringo', 4.0, 'salamander']
+names = {'Rasagul': 1, 'Sukuna': 2, 'Kratos': 3, "Lucas": 4}
 
-# Creating an alias to the original list
-alias_list = original_list
+ages = [450, 1000, 1055, 2000000]
 
-# Modifying the alias list
-alias_list.append(7)
-
-# Printing the original list
-print(original_list)  # Output: [1, 2, 3, 4]
+for name, age in zip(names, ages):
+    print(f'{name} is {age} years old.')
